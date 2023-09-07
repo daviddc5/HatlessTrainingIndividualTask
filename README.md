@@ -17,16 +17,16 @@ Features like a loading indicator, error handling, and data persistence ensure a
 
 To get the application up and running locally:
 
-1. **Setup**: 
+1. **Setup**:
     - Open your terminal.
     - Navigate to the project's root directory.
    
-2. **Install Dependencies**:
+3. **Install Dependencies**:(Node must be installed prior)
     ```sh
     npm install
     ```
 
-3. **Launch the Application**:
+4. **Launch the Application**:
     ```sh
     npm run dev
     ```
