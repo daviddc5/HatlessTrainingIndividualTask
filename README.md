@@ -1,13 +1,64 @@
-1. As a user, I want to be able to search for movies by entering keywords in a search bar.
-2. As a user, I want to see a list of movies based on my search query.
-3. As a user, I want to view more details about a movie when I click on it from the list.
-4. As a user, I want the movie details page to display the movie title, year, plot, and poster.
-5. As a user, I want to be able to add a movie to my list of favorite movies.
-6. As a user, I want to view my list of favorite movies.
-7. As a user, I want to remove a movie from my list of favorite movies.
-8. As a user, I want to see a message when there are no search results or favorite movies in the list.
-9. As a user, I want to navigate between the home page, search results, movie details, and favorites using the browser's back and forward buttons.
-10. As a user, I want the application to remember my favorite movies even after refreshing the page.
-11. As a user, I want the application to display a loading indicator while fetching movie data from the API.
-12. As a user, I want the application to handle errors gracefully and display an error message if there is a problem fetching data.
-13. As a user, I want the application to be responsive and work well on different screen sizes and devices.
+# Movie Database Application
+
+## 📖 About
+
+This application offers a comprehensive movie database built using React. It allows users to:
+- Search for movies using keywords.
+- View a list of movies based on their search.
+- Dive deeper into movie details, including the title, year, plot, and poster.
+- Save movies to a list of favorites.
+- View and manage their list of favorite movies.
+- Seamlessly navigate using browser navigation.
+- Enjoy a responsive design that works across devices.
+
+Features like a loading indicator, error handling, and data persistence ensure a smooth and user-friendly experience.
+
+## 🚀 **Running the Application**
+
+To get the application up and running locally:
+
+1. **Setup**: 
+    - Open your terminal.
+    - Navigate to the project's root directory.
+   
+2. **Install Dependencies**:
+    ```sh
+    npm install
+    ```
+
+3. **Launch the Application**:
+    ```sh
+    npm run dev
+    ```
+    This command starts the application on `http://localhost:5173`.
+
+## 🧪 **Testing**
+
+The application supports both unit/integration tests and end-to-end tests:
+
+- **Unit & Integration Tests**:
+    ```sh
+    npm run test
+    ```
+
+- **End-to-End Tests**:
+    ```sh
+    npm run e2e
+    ```
+
+- **Interactive E2E Testing**:
+    ```sh
+    npm run e2e:ui
+    ```
+    This command launches the Playwright UI, allowing you to run end-to-end tests interactively.
+
+Feel free to dive into the tests, adjusting as necessary to ensure the application's reliability and functionality.
+
+## 📝 **Contribution**
+
+Feedback, improvements, and pull requests are welcome. For major changes, please open an issue first to discuss your intended change.
+
+## 📜 **License**
+
+MIT License. See `LICENSE` for more information.
+
