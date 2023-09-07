@@ -54,11 +54,5 @@ The application supports both unit/integration tests and end-to-end tests:
 
 Feel free to dive into the tests, adjusting as necessary to ensure the application's reliability and functionality.
 
-## 📝 **Contribution**
-
-Feedback, improvements, and pull requests are welcome. For major changes, please open an issue first to discuss your intended change.
-
-## 📜 **License**
-
-MIT License. See `LICENSE` for more information.
+.
 
